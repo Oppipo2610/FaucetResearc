@@ -14,15 +14,14 @@ $ar[$i] = explode('&currency=DOGE&key=', $a);
 }
 
 // output
-$start = 12;
+$start = 7;
 echo "\n\n\n";
 for($i = 0; $i < count($ar); $i++){
   $no = $start + $i;
-echo "{$no} => [\n";
+echo "{$no} => [";
 echo "'key' =>".'"'.$ar[$i][1].'",';
-echo "\n'w' =>".'"'.$ar[$i][0].'"';
-
-echo "\n],\n";
+echo "'w' =>".'"'.$ar[$i][0].'"';
+echo "],";
 }
 
 // print_r($ar);
