@@ -1,6 +1,6 @@
 <?php
-include('lib05.php');
-include('prop05.php');
+include('lib.php');
+include('prop.php');
 
 system('clear');
 sleep(2);
