@@ -1,6 +1,6 @@
 <?php
-include('lib03.php');
-include('prop03.php');
+include('lib.php');
+include('prop.php');
 
 system('clear');
 sleep(2);
