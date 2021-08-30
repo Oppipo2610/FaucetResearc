@@ -22,7 +22,7 @@ while(true){
 	// menentukan jumlah perulangan
 	$n = $n + 1;
 	$count= count($reff);
-	echo "\n🔸From ../uptocoin_v2/run05.php";
+	echo "\n🔸From ../modul_007/run.php";
 	echo "\n🔸Balance : ".$belance;
 	echo "\n🔸Loop    : {$n} X";
 	echo "\n🔸Referer : {$count}\n\n"; 
