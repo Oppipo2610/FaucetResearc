@@ -28,3 +28,7 @@ Lakukan pengeditan / perubahan sesuai perubahan yang ada dan lakukun upload file
 ```
 
 Setelah mengetikan `git push`, terlebih dahulu akan memasukkan Username dan password, Username gunakan Username bukan Email, passwod yang direkomendasikan menggunakan Git Token
+
+## Code Folder
+
+Setiap folder berisi modul, digunakan untuk menjalankan perintah sederhana. Setiap modul harus di jalankan setiap `New Session`.
