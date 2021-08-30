@@ -16,11 +16,15 @@ cd [folder_clone]
 Lakukan pengeditan / perubahan sesuai perubahan yang ada dan lakukun upload file.
 
 ```
-git init
+~$ git init
 
-git add .
+~$ git add .
 
-git commit -m "Update"
+~$ git commit -m "Update"
 
+~$ git remote add origin https://github.com/Oppipo2610/FaucetResearc.git
+
+~$ git push
 ```
 
+Setelah mengetikan `git push`, terlebih dahulu akan memasukkan Username dan password, Username gunakan Username bukan Email, passwod yang direkomendasikan menggunakan Git Token
