@@ -22,7 +22,7 @@ while(true){
 	// menentukan jumlah perulangan
 	$n = $n + 1;
 	$count= count($reff);
-	echo "\n🔸From ../modul_010";
+	echo "\n🔸From ../modul_012";
 	echo "\n🔸Balance : ".$belance;
 	echo "\n🔸Loop    : {$n} X";
 	echo "\n🔸Referer : {$count}\n\n"; 

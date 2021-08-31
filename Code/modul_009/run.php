@@ -22,7 +22,7 @@ while(true){
 	// menentukan jumlah perulangan
 	$n = $n + 1;
 	$count= count($reff);
-	echo "\n🔸From ../uptocoin_v2/run05.php";
+	echo "\n🔸From ../modul_009";
 	echo "\n🔸Balance : ".$belance;
 	echo "\n🔸Loop    : {$n} X";
 	echo "\n🔸Referer : {$count}\n\n"; 
@@ -53,7 +53,7 @@ for($t = 10; $t > -1; $t--){
 	
 		echo "\n{$putih2}[{$i}] Take Reff {$hijau2}{$xreff[$i]}{$putih2} 🐶toshi\n";
 
-		for($j = 5; $j > -1; $j--){
+		for($j = 3; $j > -1; $j--){
 			echo $merah2." \r";
 			if($j > 0){
 			  echo "[{$j}] {$ungu2}wait ";
