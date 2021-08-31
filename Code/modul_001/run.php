@@ -31,7 +31,7 @@ while(true){
 		$belance = $belance + $messx;
 		echo$biru."\n[".$n."]👑 Claim : {$kuning1}{$messx}{$hijau2} 🐶toshi{$ungu2}. Belance :{$kuning1}{$belance}{$ungu2} 🐶toshi{$merah2}\n";
 
-		for($i = 31; $i > -1; $i--){
+		for($i = 10; $i > -1; $i--){
 			echo $merah2." \r";
 			echo "[{$i}] {$ungu2}wait ";
 			sleep(1);
@@ -59,7 +59,7 @@ while(true){
 	
 		echo "\n{$putih2}[{$i}] Take Reff {$hijau2}{$xreff[$i]}{$putih2} 🐶toshi\n";
 
-		for($j = 5; $j > -1; $j--){
+		for($j = 3; $j > -1; $j--){
 			echo $merah2." \r";
 			if($j > 0){
 			  echo "[{$j}] {$ungu2}wait ";

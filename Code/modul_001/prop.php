@@ -118,7 +118,7 @@ function getMessage($result) {
 		$hasil1 = 0;
 	} // end else if
 	
-	return $hasil1;
+	return (float)$hasil1;
 } // end funct
 
 function getReff($result) {
@@ -131,7 +131,7 @@ function getReff($result) {
 		$hasil1 = 0;
 	} // end else if
 	
-	return $hasil1;
+	return (float)$hasil1;
 } // end funct
 
 

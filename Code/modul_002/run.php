@@ -52,7 +52,7 @@ system('clear');
 	
 		echo "\n{$putih2}[{$i}] Take Reff {$hijau2}{$xreff[$i]}{$putih2} 🐶toshi\n";
 
-		for($j = 5; $j > -1; $j--){
+		for($j = 3; $j > -1; $j--){
 			echo $merah2." \r";
 			if($j > 0){
 			  echo "[{$j}] {$ungu2}wait ";
