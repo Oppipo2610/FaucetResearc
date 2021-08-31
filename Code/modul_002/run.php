@@ -23,7 +23,7 @@ while(true){
 system('clear');
 	$n = $n + 1;
 	$rCount = count($reff);
-	echo "\n🔸From ../uptocoin_v2/run.php";
+	echo "\n🔸From ../modul_002";
 	echo "\n🔸Balance : ".$belance;
 	echo "\n🔸Loop    : {$n} X";
 	echo "\n🔸Referer : {$rCount}\n\n";

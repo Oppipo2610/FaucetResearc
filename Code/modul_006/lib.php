@@ -18,18 +18,20 @@ $key = "66c0b0a94cad9b6b4ce0923f31e745b2";
 
 $webtarget = "http://uptocoin.tk/fp/faucet.php?address={$w}&currency=DOGE&key={$key}";
 
+// http://uptocoin.tk/fp/faucet.php?r=D6Lh3ALK2Gx5QsanxxfcoE6P2TiHnCJ21a&rc=DOGE&address=&currency=DOGE&key=
+
 $reff = [
 0 => [
-'key'=> "33c2c4512b797251cb354cbddf510d87",
- 'w'=> "D5ZZBtGp6QT3HRPaay2YJErZoR2msJMqD9"
+'key'=> "0fc40c8d71d79af98b65944aad7ea267",
+ 'w'=> "DNX6NEHE2qksU7wceu1bwYJXDvVjwGJfzW"
 ],
 1 => [
-'key'=> "f8f4875b12da2820ad145a4adcb59e14",
- 'w'=> "DRXC82FPZZt3MoXxsZ1MwM3af4J1UprPsx"
+'key'=> "b3dbab659fb0ccec64cd1cf1eae2ae27",
+ 'w'=> "DGiC9BKxbTrTkbgpdYzDBFvodrQP4PyEtZ"
 ],
 2 => [
-'key'=> "2e39eccf46a669ad200d34e20d1c0b31",
- 'w'=> "DBdmqSYtjp1vzdRXdKtgkCJzKUCmvrJSWB"
+'key'=> "cf451d25b77b99e355f0bea9dc62a76b",
+ 'w'=> "D8KH5QDbKZQ5x4QCMK6ZgAVPBAqSbtF8x9"
 ],
 3 => [
 'key'=> "4e0ecf2fea6c0b9a2528328fa0cf2480",
