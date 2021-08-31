@@ -32,3 +32,21 @@ Setelah mengetikan `git push`, terlebih dahulu akan memasukkan Username dan pass
 ## Code Folder
 
 Setiap folder berisi modul, digunakan untuk menjalankan perintah sederhana. Setiap modul harus di jalankan setiap `New Session`.
+
+## Mirror File
+
+Hal ini bisa terjadi di lakukan ketika terjadi update pada data git, maka yang harus dilakukan ada melakukan cloning lagi.
+Langkah yang harus dilakukan
+
+```
+~$ rm -rf *
+
+~$ git checkout master
+
+~$ cd ..
+
+~$ rm -rf [folder_clone]
+
+~$ git clone [link_clone]
+
+```
