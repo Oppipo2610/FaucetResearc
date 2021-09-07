@@ -14,7 +14,7 @@ $ar[$i] = explode('&currency=DOGE&key=', $a);
 }
 
 // output
-$start = 0;
+$start = ;
 echo "\n\n\n";
 for($i = 0; $i < count($ar); $i++){
   $no = $start + $i;

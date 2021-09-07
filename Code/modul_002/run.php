@@ -29,6 +29,7 @@ system('clear');
 	echo "\n🔸Referer : {$rCount}\n\n";
 
 	//#######[  Sesi Reff  ]##########
+/**
 	for($t = 10; $t > -1; $t--){
 			echo $merah2." \r";
 			if ($t > 0) {
@@ -39,6 +40,8 @@ system('clear');
 			  echo "{$ungu2}[🚀] Gooo"; 
 			}
 		} // end for
+
+		**/
 	for($i = 0; $i < count($reff); $i++){
 	  if($user_x != "" && $reff[$i]['key'] != ""){
 	    // membuat header
@@ -51,7 +54,7 @@ system('clear');
         $belance = $belance + $xreff[$i];
 	
 		echo "\n{$putih2}[{$i}] Take Reff {$hijau2}{$xreff[$i]}{$putih2} 🐶toshi\n";
-
+/**
 		for($j = 3; $j > -1; $j--){
 			echo $merah2." \r";
 			if($j > 0){
@@ -60,9 +63,8 @@ system('clear');
 			} else {
 			  echo "[🔻] {$kuning1}Done";
 			}
-			
 		} // end for
-
+**/
 	} // end if
     else {
       echo "\n {$merah2}☢️ Situs tidak dapat dijangkau\n";
